@@ -69,7 +69,8 @@ function About() {
               }}>
                 {/* Replace src with your actual photo in /src/assets/images/ */}
                 <img
-                  src="https://placehold.co/480x480/111118/7c3aed?text=T.K.S"
+                  // src="https://placehold.co/480x480/111118/7c3aed?text=T.K.S"
+                  src="ᚦᛖᛃᚨᛊBackgroundBlackDesktop.png"
                   alt="Thejas K S – profile photo"
                   loading="lazy"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
