@@ -139,7 +139,7 @@ function Hero() {
             View Projects →
           </button>
 
-          <a
+          {/* <a
             href="#contact"
             onClick={(e) => {
               e.preventDefault()
@@ -162,7 +162,7 @@ function Hero() {
             }}
           >
             Get in Touch
-          </a>
+          </a> */}
         </div>
       </div>
 
