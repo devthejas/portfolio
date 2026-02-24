@@ -101,7 +101,7 @@ function Navbar() {
       <nav style={nav} role="navigation" aria-label="Main navigation">
         {/* ── Logo ─────────────────── */}
         <a href="#" style={logo} onClick={(e) => handleNavClick(e, 'body')}>
-          &lt;TKS /&gt;
+          &lt;ᛃ /&gt;
         </a>
 
         {/* ── Desktop links ─────────── */}
