@@ -1,0 +1,46 @@
+/* ─────────────────────────────────────────────
+   CSS Custom Properties – single source of truth
+   ───────────────────────────────────────────── */
+:root {
+  /* Background palette */
+  --bg-primary:    #0a0a0f;
+  --bg-secondary:  #111118;
+  --bg-card:       #16161f;
+  --bg-glass:      rgba(255, 255, 255, 0.04);
+
+  /* Accent colors */
+  --accent-purple:  #7c3aed;
+  --accent-cyan:    #06b6d4;
+  --accent-gradient: linear-gradient(135deg, #7c3aed, #06b6d4);
+
+  /* Text */
+  --text-primary:   #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted:     #475569;
+
+  /* Borders & glow */
+  --border-subtle:  rgba(255, 255, 255, 0.07);
+  --border-glow:    rgba(124, 58, 237, 0.35);
+
+  /* Shadows */
+  --shadow-sm:    0 2px 8px  rgba(0, 0, 0, 0.3);
+  --shadow-md:    0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-lg:    0 8px 48px rgba(0, 0, 0, 0.5);
+  --shadow-glow:  0 0 24px   rgba(124, 58, 237, 0.25);
+
+  /* Layout */
+  --max-width:      1200px;
+  --navbar-height:  70px;
+
+  /* Border radius */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --t-fast:  150ms ease;
+  --t-base:  300ms ease;
+  --t-slow:  500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
